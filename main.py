@@ -14,5 +14,11 @@ elif int(choix)==2:
         print("aucune tache")
     else:
         print(ls)
+elif int(choix)==3:
+    cherche=input("tache chercher")
+    if cherche in ls:
+        print("tache existe")
+    else:
+        print("tache n'existe pas")
 elif int(choix)==0:
     print("see ya")
